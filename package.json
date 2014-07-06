@@ -1,0 +1,22 @@
+{
+  "name": "grunt-rsync-ac",
+  "version": "0.1.0",
+  "description": "Run \"rsync -aC --exclude-from=.rsyncignore\".",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hail2u/rsync-ac.git"
+  },
+  "keywords": [
+    "gruntplugin",
+    "rsync"
+  ],
+  "author": "Kyo Nagashima <kyo@hail2u.net> (http://hail2u.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hail2u/rsync-ac/issues"
+  },
+  "homepage": "https://github.com/hail2u/rsync-ac",
+  "peerDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
