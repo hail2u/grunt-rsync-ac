@@ -19,6 +19,7 @@ CONFIGURE
       grunt.initConfig({
         rsync: {
           options: {
+            local: './build/',
             remote: 'user@example.com:~/Sites/example.com/'
           },
 
@@ -47,6 +48,14 @@ specify exclude patterns with:
   - `~/.cvsignore` file
   - A file set `$CVSIGNORE`
   - `.cvsignore` file in the same directory as a `Gruntfile.js`
+
+
+### local
+
+*Optional*: default value is './'
+
+A path to source directory. This plugin does not normalizes this value, so be
+careful to set. This can be pointed to remote directory.
 
 
 ### remote

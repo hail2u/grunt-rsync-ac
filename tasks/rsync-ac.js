@@ -10,7 +10,8 @@ module.exports = function (grunt) {
     var options = this.options({
       dry_run: true,
       sync: false,
-      progress: false
+      progress: false,
+      local: './'
     });
     var flags = grunt.option.flags();
     var args = [
@@ -39,7 +40,7 @@ module.exports = function (grunt) {
       grunt.fail.warn('Option `remote` not specified.');
     }
 
-    args.push('./', options.remote);
+    args.push(options.local, options.remote);
     grunt.verbose.writeln('Running rsync with following options: ' + args.join(' '));
     grunt.util.spawn({
       cmd: 'rsync',
