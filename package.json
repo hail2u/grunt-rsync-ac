@@ -4,7 +4,7 @@
   "description": "Run \"rsync -aC --exclude-from=.rsyncignore\".",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hail2u/rsync-ac.git"
+    "url": "https://github.com/hail2u/grunt-rsync-ac.git"
   },
   "keywords": [
     "gruntplugin",
@@ -13,7 +13,7 @@
   "author": "Kyo Nagashima <kyo@hail2u.net> (http://hail2u.net/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hail2u/rsync-ac/issues"
+    "url": "https://github.com/hail2u/grunt-rsync-ac/issues"
   },
-  "homepage": "https://github.com/hail2u/rsync-ac"
+  "homepage": "https://github.com/hail2u/grunt-rsync-ac"
 }
