@@ -13,18 +13,16 @@ module.exports = function (grunt) {
       progress: false,
       local: './'
     });
-    var flags = grunt.option.flags();
     var args = [
       '-aC',
       '--exclude-from=.rsyncignore'
     ];
 
-    if (flags.indexOf('--verbose') != -1 || flags.indexOf('-v')) {
+    if (grunt.option('verbose')) {
       args.push('-v');
     }
 
     if (options.dry_run) {
-      grunt.log.writeln('Dry runnning rsync...');
       args.push('-n');
     }
 
