@@ -11,7 +11,10 @@
     "gruntplugin",
     "rsync"
   ],
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "url": "http://hail2u.mit-license.org/2014"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hail2u/grunt-rsync-ac.git"
