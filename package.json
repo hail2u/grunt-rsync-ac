@@ -12,6 +12,7 @@
     "rsync"
   ],
   "license": "MIT",
+  "main": "tasks/rsync-ac.js",
   "peerDependencies": {
     "grunt": ">=0.4.0"
   },
