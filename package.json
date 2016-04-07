@@ -1,7 +1,7 @@
 {
   "name": "grunt-rsync-ac",
   "description": "Run \"rsync -aC --exclude-from=.rsyncignore\".",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
   "bugs": {
     "url": "https://github.com/hail2u/grunt-rsync-ac/issues"
