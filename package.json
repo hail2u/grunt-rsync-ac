@@ -12,6 +12,9 @@
     "rsync"
   ],
   "license": "MIT",
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hail2u/grunt-rsync-ac.git"
